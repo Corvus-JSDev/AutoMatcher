@@ -10,7 +10,6 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-src/API-Token_Data.js
 *.local
 
 # Editor directories and files
@@ -23,3 +22,4 @@ src/API-Token_Data.js
 *.njsproj
 *.sln
 *.sw?
+src/API-Token-Data.js
