@@ -1,0 +1,5 @@
+:root {
+	--Temp-Border-Red: 3px dashed rgb(202, 0, 0);
+	--Temp-Border-Green: 3px dashed rgb(12, 178, 12);
+	--Temp-Border-Blue: 3px dashed rgb(47, 103, 254);
+}

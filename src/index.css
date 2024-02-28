@@ -1,0 +1,21 @@
+* {
+	font-family: "Roboto", sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	text-decoration: none;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+body {
+	background-color: #242424;
+
+	min-width: 320px;
+	min-height: 100lvh;
+}
