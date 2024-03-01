@@ -1,10 +1,12 @@
+info for cross-origin-requests-cors
+https://carapi.app/docs/#cross-origin-requests-cors
+
 API token: 9db28246-957b-402a-8cf7-9328893f67ce
 API Secret: fbbbb0c303255acde341d5b667127f3d
 
-Authorization Bearer: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjYXJhcGkuYXBwIiwic3ViIjoiYWU2ZmI1NDctNjNlYi00ODc1LTg3MWEtNTZhOWU1NDM3ZTY2IiwiYXVkIjoiYWU2ZmI1NDctNjNlYi00ODc1LTg3MWEtNTZhOWU1NDM3ZTY2IiwiZXhwIjoxNzA5NzU5OTA1LCJpYXQiOjE3MDkxNTUxMDUsImp0aSI6ImI3MzUzMDgxLTc0MTYtNDQ3MC1iMGU1LTA4ZTUxZDA0NjM1NiIsInVzZXIiOnsic3Vic2NyaWJlZCI6ZmFsc2UsInN1YnNjcmlwdGlvbiI6bnVsbCwicmF0ZV9saW1pdF90eXBlIjoiaGFyZCIsImFkZG9ucyI6eyJhbnRpcXVlX3ZlaGljbGVzIjpmYWxzZX19fQ.1n_y2jl0WyKjajsF1qnV2wRSTA4JAkhG7AEPKsAiZvQ
-
 Main Features:
 	☐ Ability to compare 3 cars.
+	☐ Ability to search by typing not just by clicking an option from a drop down
 	☐ When the user is typing in the year, make, model, etc. the popup window will change its selectable values to be what the user has typed.
  
 	Compareable Items:
@@ -37,4 +39,13 @@ Main Features:
 			☐ transmission
 			☐ drive_type
 			
-			
+
+Technologies Used:
+	HTML/CSS
+	Vanilla JavaScript
+	React
+	jQuery
+	Babel
+	Rollup
+	ESbuild
+	Vite

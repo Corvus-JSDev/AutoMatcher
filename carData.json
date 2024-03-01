@@ -1,0 +1,486 @@
+{
+	"makes": [
+		{
+			"name": "Audi",
+			"models": [
+				{
+					"name": "A8",
+					"year": "2020",
+					"specs": {
+						"engine": {
+							"max_hp": "335 @ 5k",
+							"torque": "369 @ 1.4k"
+						},
+						"body": {
+							"num_door": "4",
+							"num_seats": "5",
+							"curb_weight": "4773lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "22",
+							"tank_size": "21.7"
+						},
+						"technicals": {
+							"msrp": "$46,953",
+							"trans": "auto",
+							"drive_type": "RWD"
+						}
+					}
+				},
+				{
+					"name": "e-tron Sportback",
+					"year": "2020",
+					"specs": {
+						"engine": {
+							"max_hp": "400",
+							"torque": "490"
+						},
+						"body": {
+							"num_door": "5",
+							"num_seats": "5",
+							"curb_weight": "5787lbs"
+						},
+						"fuel": {
+							"fuel_type": "EV",
+							"combined_mpg": null,
+							"tank_size": null
+						},
+						"technicals": {
+							"msrp": "$67,753",
+							"trans": "auto",
+							"drive_type": "FWD"
+						}
+					}
+				},
+				{
+					"name": "Q3",
+					"year": "2020",
+					"specs": {
+						"engine": {
+							"max_hp": "184 @ 4.8k",
+							"torque": "221 @ 3.5k"
+						},
+						"body": {
+							"num_door": "5",
+							"num_seats": "5",
+							"curb_weight": "3902lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "25",
+							"tank_size": "15.9"
+						},
+						"technicals": {
+							"msrp": "$70,544",
+							"trans": "auto",
+							"drive_type": "RWD"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Bentley",
+			"models": [
+				{
+					"name": "Bentayga",
+					"year": "2020",
+					"specs": {
+						"engine": {
+							"max_hp": "626 @ 5k",
+							"torque": "664 @ 1.7k"
+						},
+						"body": {
+							"num_door": "5",
+							"num_seats": "5",
+							"curb_weight": "5529lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "14",
+							"tank_size": "22.5"
+						},
+						"technicals": {
+							"msrp": "$54,532",
+							"trans": "auto",
+							"drive_type": "FWD"
+						}
+					}
+				},
+				{
+					"name": "Continental",
+					"year": "2020",
+					"specs": {
+						"engine": {
+							"max_hp": "542 @ 6k",
+							"torque": "568 @ 2k"
+						},
+						"body": {
+							"num_door": "2",
+							"num_seats": "4",
+							"curb_weight": "4773lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "19",
+							"tank_size": "24"
+						},
+						"technicals": {
+							"msrp": "$34,578",
+							"trans": "auto",
+							"drive_type": "RWD"
+						}
+					}
+				},
+				{
+					"name": "Flying Spur",
+					"year": "2020",
+					"specs": {
+						"engine": {
+							"max_hp": "542 @ 6k",
+							"torque": "568 @ 2k"
+						},
+						"body": {
+							"num_door": "4",
+							"num_seats": "5",
+							"curb_weight": "5137lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "14",
+							"tank_size": "23.8"
+						},
+						"technicals": {
+							"msrp": "$49,457",
+							"trans": "auto",
+							"drive_type": "FWD"
+						}
+					}
+				}
+			]
+		},
+
+		{
+			"name": "BMW",
+			"models": [
+				{
+					"name": "4 Series",
+					"year": "2018",
+					"specs": {
+						"engine": {
+							"max_hp": "473 @ 6.2k",
+							"torque": "400 @ 2.6k"
+						},
+						"body": {
+							"num_door": "2",
+							"num_seats": "4",
+							"curb_weight": "3830lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "19",
+							"tank_size": "15.6"
+						},
+						"technicals": {
+							"msrp": "$99,999",
+							"trans": "auto",
+							"drive_type": "RWD"
+						}
+					}
+				},
+				{
+					"name": "6 Series Gran Coupe",
+					"year": "2018",
+					"specs": {
+						"engine": {
+							"max_hp": "443 @ 5.5k",
+							"torque": "470 @ 2k"
+						},
+						"body": {
+							"num_door": "4",
+							"num_seats": "5",
+							"curb_weight": "4570lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "23",
+							"tank_size": "18.5"
+						},
+						"technicals": {
+							"msrp": "$69,000",
+							"trans": "auto",
+							"drive_type": "FWD"
+						}
+					}
+				},
+				{
+					"name": "7 Series",
+					"year": "2018",
+					"specs": {
+						"engine": {
+							"max_hp": "600 @ 5.5k",
+							"torque": "620 @ 1.5k"
+						},
+						"body": {
+							"num_door": "4",
+							"num_seats": "5",
+							"curb_weight": "5156lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "16",
+							"tank_size": "20.6"
+						},
+						"technicals": {
+							"msrp": "$97,000",
+							"trans": "auto",
+							"drive_type": "RWD"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Ford",
+			"models": [
+				{
+					"name": "Expedition",
+					"year": "2019",
+					"specs": {
+						"engine": {
+							"max_hp": "380 @ 5k",
+							"torque": "470 @ 2.2k"
+						},
+						"body": {
+							"num_door": "5",
+							"num_seats": "8",
+							"curb_weight": "5306lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "19",
+							"tank_size": "23.2"
+						},
+						"technicals": {
+							"msrp": "$60,000",
+							"trans": "auto",
+							"drive_type": "FWD"
+						}
+					}
+				},
+				{
+					"name": "F-150",
+					"year": "2019",
+					"specs": {
+						"engine": {
+							"max_hp": "290 @ 6.5k",
+							"torque": "265 @ 4k"
+						},
+						"body": {
+							"num_door": "2",
+							"num_seats": "3",
+							"curb_weight": "4021lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "21",
+							"tank_size": "23"
+						},
+						"technicals": {
+							"msrp": "$40,603",
+							"trans": "auto",
+							"drive_type": "AWD"
+						}
+					}
+				},
+				{
+					"name": "Explorer",
+					"year": "2019",
+					"specs": {
+						"engine": {
+							"max_hp": "400 @ 5.5k",
+							"torque": "415 @ 3.5k"
+						},
+						"body": {
+							"num_door": "5",
+							"num_seats": "6",
+							"curb_weight": "4701lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "21",
+							"tank_size": "20"
+						},
+						"technicals": {
+							"msrp": "$57,000",
+							"trans": "auto",
+							"drive_type": "AWD"
+						}
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Honda",
+			"models": [
+				{
+					"name": "Civic",
+					"year": "2018",
+					"specs": {
+						"engine": {
+							"max_hp": "158 @ 6.5k",
+							"torque": "138 @ 4.2k"
+						},
+						"body": {
+							"num_door": "4",
+							"num_seats": "5",
+							"curb_weight": "2877lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "35",
+							"tank_size": "12.4"
+						},
+						"technicals": {
+							"msrp": "$40,000",
+							"trans": "auto",
+							"drive_type": "FWD"
+						}
+					}
+				},
+				{
+					"name": "Accord",
+					"year": "2018",
+					"specs": {
+						"engine": {
+							"max_hp": "192 @ 5.5k",
+							"torque": "190 @ 1.6k"
+						},
+						"body": {
+							"num_door": "4",
+							"num_seats": "5",
+							"curb_weight": "3150lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "33",
+							"tank_size": "14.8"
+						},
+						"technicals": {
+							"msrp": "$29,000",
+							"trans": "auto",
+							"drive_type": "FWD"
+						}
+					}
+				},
+				{
+					"name": "CR-V",
+					"year": "2018",
+					"specs": {
+						"engine": {
+							"max_hp": "190 @ 5.6k",
+							"torque": "179 @ 2k"
+						},
+						"body": {
+							"num_door": "5",
+							"num_seats": "5",
+							"curb_weight": "3337lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "30",
+							"tank_size": "14"
+						},
+						"technicals": {
+							"msrp": "$30,500",
+							"trans": "auto",
+							"drive_type": "FWD"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Jeep",
+			"models": [
+				{
+					"name": "Renegade",
+					"year": "2019",
+					"specs": {
+						"engine": {
+							"max_hp": "177 @ 5.7k",
+							"torque": "210 @ 1.7k"
+						},
+						"body": {
+							"num_door": "5",
+							"num_seats": "5",
+							"curb_weight": "3161lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "27",
+							"tank_size": "12.7"
+						},
+						"technicals": {
+							"msrp": "$46,532",
+							"trans": "auto",
+							"drive_type": "AWD"
+						}
+					}
+				},
+				{
+					"name": "Wrangler",
+					"year": "2019",
+					"specs": {
+						"engine": {
+							"max_hp": "285 @ 6.4k",
+							"torque": "260 @ 4.8k"
+						},
+						"body": {
+							"num_door": "3",
+							"num_seats": "4",
+							"curb_weight": "3948lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "20",
+							"tank_size": "17.5"
+						},
+						"technicals": {
+							"msrp": "$43,562",
+							"trans": "auto",
+							"drive_type": "AWD"
+						}
+					}
+				},
+				{
+					"name": "Cherokee",
+					"year": "2019",
+					"specs": {
+						"engine": {
+							"max_hp": "180 @ 6.4k",
+							"torque": "171 @ 4.6k"
+						},
+						"body": {
+							"num_door": "5",
+							"num_seats": "5",
+							"curb_weight": "3710lbs"
+						},
+						"fuel": {
+							"fuel_type": "gas",
+							"combined_mpg": "25",
+							"tank_size": "15.8"
+						},
+						"technicals": {
+							"msrp": "$50,845",
+							"trans": "auto",
+							"drive_type": "AWD"
+						}
+					}
+				}
+			]
+		}
+	]
+}
