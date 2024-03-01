@@ -1,5 +1,5 @@
 // If the user clicks to another tab, change the title of the page
-/* 
+
 document.addEventListener("visibilitychange", () => {
 	if (document.hidden) {
 		document.title = "Hey!! Come back ;(";
@@ -10,10 +10,8 @@ document.addEventListener("visibilitychange", () => {
 		}, 2000);
 	}
 });
- */
 
 // API data
-
 /*
 * This Code is commented out for cost reasons, if you wish to add your own api data, simply add the correct URL, then go into api_keys.js to add you tokens
 
