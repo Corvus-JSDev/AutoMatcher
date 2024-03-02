@@ -1,8 +1,16 @@
+:root {
+	--background-color: #21202f;
+	--secondary-color: #111334;
+	--backup-color: #4e0075;
+	--text-color: #e7e7e7;
+}
 * {
-	font-family: "Roboto", sans-serif;
+	font-family: "Inter", sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
+	letter-spacing: 1px;
 	text-decoration: none;
+	color: var(--text-color);
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -12,10 +20,19 @@
 	border: none;
 	outline: none;
 	box-sizing: border-box;
+
+	scrollbar-color: #3b1c3c #251f2b;
+	scrollbar-width: thin;
+}
+hr {
+	width: 100%;
+	border: 2px solid black;
 }
 body {
-	background-color: #242424;
+	background-color: #21202f;
 
 	min-width: 320px;
 	min-height: 100lvh;
+
+	overflow-x: hidden;
 }

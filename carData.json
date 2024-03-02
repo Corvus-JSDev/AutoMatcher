@@ -6,12 +6,14 @@
 				{
 					"name": "A8",
 					"year": "2020",
+					"img": "Audi-A8.png",
 					"specs": {
 						"engine": {
 							"max_hp": "335 @ 5k",
 							"torque": "369 @ 1.4k"
 						},
 						"body": {
+							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
 							"curb_weight": "4773lbs"
@@ -22,7 +24,7 @@
 							"tank_size": "21.7"
 						},
 						"technicals": {
-							"msrp": "$46,953",
+							"msrp": "$80,000",
 							"trans": "auto",
 							"drive_type": "RWD"
 						}
@@ -31,12 +33,14 @@
 				{
 					"name": "e-tron Sportback",
 					"year": "2020",
+					"img": "Audi-E-tron.png",
 					"specs": {
 						"engine": {
 							"max_hp": "400",
 							"torque": "490"
 						},
 						"body": {
+							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
 							"curb_weight": "5787lbs"
@@ -47,7 +51,7 @@
 							"tank_size": null
 						},
 						"technicals": {
-							"msrp": "$67,753",
+							"msrp": "$75,000",
 							"trans": "auto",
 							"drive_type": "FWD"
 						}
@@ -56,12 +60,14 @@
 				{
 					"name": "Q3",
 					"year": "2020",
+					"img": "Audi-Q3-Sportback.png",
 					"specs": {
 						"engine": {
 							"max_hp": "184 @ 4.8k",
 							"torque": "221 @ 3.5k"
 						},
 						"body": {
+							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
 							"curb_weight": "3902lbs"
@@ -72,7 +78,7 @@
 							"tank_size": "15.9"
 						},
 						"technicals": {
-							"msrp": "$70,544",
+							"msrp": "$40,000",
 							"trans": "auto",
 							"drive_type": "RWD"
 						}
@@ -86,12 +92,14 @@
 				{
 					"name": "Bentayga",
 					"year": "2020",
+					"img": "Bentley-Bentayga.png",
 					"specs": {
 						"engine": {
 							"max_hp": "626 @ 5k",
 							"torque": "664 @ 1.7k"
 						},
 						"body": {
+							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
 							"curb_weight": "5529lbs"
@@ -102,7 +110,7 @@
 							"tank_size": "22.5"
 						},
 						"technicals": {
-							"msrp": "$54,532",
+							"msrp": "$200,000",
 							"trans": "auto",
 							"drive_type": "FWD"
 						}
@@ -111,12 +119,14 @@
 				{
 					"name": "Continental",
 					"year": "2020",
+					"img": "Bentley-Continental.png",
 					"specs": {
 						"engine": {
 							"max_hp": "542 @ 6k",
 							"torque": "568 @ 2k"
 						},
 						"body": {
+							"type": "Coupe",
 							"num_door": "2",
 							"num_seats": "4",
 							"curb_weight": "4773lbs"
@@ -127,7 +137,7 @@
 							"tank_size": "24"
 						},
 						"technicals": {
-							"msrp": "$34,578",
+							"msrp": "$260,000",
 							"trans": "auto",
 							"drive_type": "RWD"
 						}
@@ -136,12 +146,14 @@
 				{
 					"name": "Flying Spur",
 					"year": "2020",
+					"img": "White-Bentley-Flying-Spur.png",
 					"specs": {
 						"engine": {
 							"max_hp": "542 @ 6k",
 							"torque": "568 @ 2k"
 						},
 						"body": {
+							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
 							"curb_weight": "5137lbs"
@@ -152,7 +164,7 @@
 							"tank_size": "23.8"
 						},
 						"technicals": {
-							"msrp": "$49,457",
+							"msrp": "$210,000",
 							"trans": "auto",
 							"drive_type": "FWD"
 						}
@@ -167,12 +179,14 @@
 				{
 					"name": "4 Series",
 					"year": "2018",
+					"img": "2017-bmw-4-series.png",
 					"specs": {
 						"engine": {
 							"max_hp": "473 @ 6.2k",
 							"torque": "400 @ 2.6k"
 						},
 						"body": {
+							"type": "Coupe",
 							"num_door": "2",
 							"num_seats": "4",
 							"curb_weight": "3830lbs"
@@ -183,7 +197,7 @@
 							"tank_size": "15.6"
 						},
 						"technicals": {
-							"msrp": "$99,999",
+							"msrp": "$60,000",
 							"trans": "auto",
 							"drive_type": "RWD"
 						}
@@ -192,12 +206,14 @@
 				{
 					"name": "6 Series Gran Coupe",
 					"year": "2018",
+					"img": "bmw-6-series.png",
 					"specs": {
 						"engine": {
 							"max_hp": "443 @ 5.5k",
 							"torque": "470 @ 2k"
 						},
 						"body": {
+							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
 							"curb_weight": "4570lbs"
@@ -208,7 +224,7 @@
 							"tank_size": "18.5"
 						},
 						"technicals": {
-							"msrp": "$69,000",
+							"msrp": "$40,000",
 							"trans": "auto",
 							"drive_type": "FWD"
 						}
@@ -217,12 +233,14 @@
 				{
 					"name": "7 Series",
 					"year": "2018",
+					"img": "bmw-7-series.png",
 					"specs": {
 						"engine": {
 							"max_hp": "600 @ 5.5k",
 							"torque": "620 @ 1.5k"
 						},
 						"body": {
+							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
 							"curb_weight": "5156lbs"
@@ -233,7 +251,7 @@
 							"tank_size": "20.6"
 						},
 						"technicals": {
-							"msrp": "$97,000",
+							"msrp": "$80,000",
 							"trans": "auto",
 							"drive_type": "RWD"
 						}
@@ -247,12 +265,14 @@
 				{
 					"name": "Expedition",
 					"year": "2019",
+					"img": "ford-Expedition.png",
 					"specs": {
 						"engine": {
 							"max_hp": "380 @ 5k",
 							"torque": "470 @ 2.2k"
 						},
 						"body": {
+							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "8",
 							"curb_weight": "5306lbs"
@@ -263,7 +283,7 @@
 							"tank_size": "23.2"
 						},
 						"technicals": {
-							"msrp": "$60,000",
+							"msrp": "$57,000",
 							"trans": "auto",
 							"drive_type": "FWD"
 						}
@@ -272,12 +292,14 @@
 				{
 					"name": "F-150",
 					"year": "2019",
+					"img": "Ford-f150.png",
 					"specs": {
 						"engine": {
 							"max_hp": "290 @ 6.5k",
 							"torque": "265 @ 4k"
 						},
 						"body": {
+							"type": "Pickup",
 							"num_door": "2",
 							"num_seats": "3",
 							"curb_weight": "4021lbs"
@@ -288,7 +310,7 @@
 							"tank_size": "23"
 						},
 						"technicals": {
-							"msrp": "$40,603",
+							"msrp": "$50,000",
 							"trans": "auto",
 							"drive_type": "AWD"
 						}
@@ -297,12 +319,14 @@
 				{
 					"name": "Explorer",
 					"year": "2019",
+					"img": "Ford-Explorer.png",
 					"specs": {
 						"engine": {
 							"max_hp": "400 @ 5.5k",
 							"torque": "415 @ 3.5k"
 						},
 						"body": {
+							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "6",
 							"curb_weight": "4701lbs"
@@ -313,7 +337,7 @@
 							"tank_size": "20"
 						},
 						"technicals": {
-							"msrp": "$57,000",
+							"msrp": "$40,000",
 							"trans": "auto",
 							"drive_type": "AWD"
 						}
@@ -328,12 +352,14 @@
 				{
 					"name": "Civic",
 					"year": "2018",
+					"img": "honda-civic.png",
 					"specs": {
 						"engine": {
 							"max_hp": "158 @ 6.5k",
 							"torque": "138 @ 4.2k"
 						},
 						"body": {
+							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
 							"curb_weight": "2877lbs"
@@ -344,7 +370,7 @@
 							"tank_size": "12.4"
 						},
 						"technicals": {
-							"msrp": "$40,000",
+							"msrp": "$20,000",
 							"trans": "auto",
 							"drive_type": "FWD"
 						}
@@ -353,12 +379,14 @@
 				{
 					"name": "Accord",
 					"year": "2018",
+					"img": "blue-honda-accord.png",
 					"specs": {
 						"engine": {
 							"max_hp": "192 @ 5.5k",
 							"torque": "190 @ 1.6k"
 						},
 						"body": {
+							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
 							"curb_weight": "3150lbs"
@@ -369,7 +397,7 @@
 							"tank_size": "14.8"
 						},
 						"technicals": {
-							"msrp": "$29,000",
+							"msrp": "$28,000",
 							"trans": "auto",
 							"drive_type": "FWD"
 						}
@@ -378,12 +406,14 @@
 				{
 					"name": "CR-V",
 					"year": "2018",
+					"img": "honda-crv.png",
 					"specs": {
 						"engine": {
 							"max_hp": "190 @ 5.6k",
 							"torque": "179 @ 2k"
 						},
 						"body": {
+							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
 							"curb_weight": "3337lbs"
@@ -394,7 +424,7 @@
 							"tank_size": "14"
 						},
 						"technicals": {
-							"msrp": "$30,500",
+							"msrp": "$30,000",
 							"trans": "auto",
 							"drive_type": "FWD"
 						}
@@ -408,12 +438,14 @@
 				{
 					"name": "Renegade",
 					"year": "2019",
+					"img": "Jeep-Renegade.png",
 					"specs": {
 						"engine": {
 							"max_hp": "177 @ 5.7k",
 							"torque": "210 @ 1.7k"
 						},
 						"body": {
+							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
 							"curb_weight": "3161lbs"
@@ -424,7 +456,7 @@
 							"tank_size": "12.7"
 						},
 						"technicals": {
-							"msrp": "$46,532",
+							"msrp": "$30,000",
 							"trans": "auto",
 							"drive_type": "AWD"
 						}
@@ -433,12 +465,14 @@
 				{
 					"name": "Wrangler",
 					"year": "2019",
+					"img": "Jeep-Wrangler.png",
 					"specs": {
 						"engine": {
 							"max_hp": "285 @ 6.4k",
 							"torque": "260 @ 4.8k"
 						},
 						"body": {
+							"type": "SUV",
 							"num_door": "3",
 							"num_seats": "4",
 							"curb_weight": "3948lbs"
@@ -449,7 +483,7 @@
 							"tank_size": "17.5"
 						},
 						"technicals": {
-							"msrp": "$43,562",
+							"msrp": "$35,000",
 							"trans": "auto",
 							"drive_type": "AWD"
 						}
@@ -458,12 +492,14 @@
 				{
 					"name": "Cherokee",
 					"year": "2019",
+					"img": "Jeep-Cherokee.png",
 					"specs": {
 						"engine": {
 							"max_hp": "180 @ 6.4k",
 							"torque": "171 @ 4.6k"
 						},
 						"body": {
+							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
 							"curb_weight": "3710lbs"
@@ -474,7 +510,7 @@
 							"tank_size": "15.8"
 						},
 						"technicals": {
-							"msrp": "$50,845",
+							"msrp": "$40,000",
 							"trans": "auto",
 							"drive_type": "AWD"
 						}
