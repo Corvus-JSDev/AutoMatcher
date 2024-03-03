@@ -9,14 +9,14 @@
 					"img": "Audi-A8.png",
 					"specs": {
 						"engine": {
-							"max_hp": "335 @ 5k",
+							"max_hp": "335 @ 5.0k",
 							"torque": "369 @ 1.4k"
 						},
 						"body": {
 							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
-							"curb_weight": "4773lbs"
+							"curb_weight": "4773"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -25,7 +25,7 @@
 						},
 						"technicals": {
 							"msrp": "$80,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "RWD"
 						}
 					}
@@ -36,14 +36,14 @@
 					"img": "Audi-E-tron.png",
 					"specs": {
 						"engine": {
-							"max_hp": "400",
-							"torque": "490"
+							"max_hp": "400 @ 7.0k",
+							"torque": "490 @ 3.4k"
 						},
 						"body": {
 							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
-							"curb_weight": "5787lbs"
+							"curb_weight": "5787"
 						},
 						"fuel": {
 							"fuel_type": "EV",
@@ -52,7 +52,7 @@
 						},
 						"technicals": {
 							"msrp": "$75,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "FWD"
 						}
 					}
@@ -70,7 +70,7 @@
 							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
-							"curb_weight": "3902lbs"
+							"curb_weight": "3902"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -79,7 +79,7 @@
 						},
 						"technicals": {
 							"msrp": "$40,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "RWD"
 						}
 					}
@@ -95,14 +95,14 @@
 					"img": "Bentley-Bentayga.png",
 					"specs": {
 						"engine": {
-							"max_hp": "626 @ 5k",
+							"max_hp": "626 @ 5.0k",
 							"torque": "664 @ 1.7k"
 						},
 						"body": {
 							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
-							"curb_weight": "5529lbs"
+							"curb_weight": "5529"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -111,7 +111,7 @@
 						},
 						"technicals": {
 							"msrp": "$200,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "FWD"
 						}
 					}
@@ -122,14 +122,14 @@
 					"img": "Bentley-Continental.png",
 					"specs": {
 						"engine": {
-							"max_hp": "542 @ 6k",
-							"torque": "568 @ 2k"
+							"max_hp": "542 @ 6.0k",
+							"torque": "568 @ 2.0k"
 						},
 						"body": {
 							"type": "Coupe",
 							"num_door": "2",
 							"num_seats": "4",
-							"curb_weight": "4773lbs"
+							"curb_weight": "4773"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -138,7 +138,7 @@
 						},
 						"technicals": {
 							"msrp": "$260,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "RWD"
 						}
 					}
@@ -149,14 +149,14 @@
 					"img": "White-Bentley-Flying-Spur.png",
 					"specs": {
 						"engine": {
-							"max_hp": "542 @ 6k",
-							"torque": "568 @ 2k"
+							"max_hp": "542 @ 6.0k",
+							"torque": "568 @ 2.0k"
 						},
 						"body": {
 							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
-							"curb_weight": "5137lbs"
+							"curb_weight": "5137"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -165,7 +165,7 @@
 						},
 						"technicals": {
 							"msrp": "$210,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "FWD"
 						}
 					}
@@ -189,7 +189,7 @@
 							"type": "Coupe",
 							"num_door": "2",
 							"num_seats": "4",
-							"curb_weight": "3830lbs"
+							"curb_weight": "3830"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -198,7 +198,7 @@
 						},
 						"technicals": {
 							"msrp": "$60,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "RWD"
 						}
 					}
@@ -210,13 +210,13 @@
 					"specs": {
 						"engine": {
 							"max_hp": "443 @ 5.5k",
-							"torque": "470 @ 2k"
+							"torque": "470 @ 2.0k"
 						},
 						"body": {
 							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
-							"curb_weight": "4570lbs"
+							"curb_weight": "4570"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -225,7 +225,7 @@
 						},
 						"technicals": {
 							"msrp": "$40,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "FWD"
 						}
 					}
@@ -243,7 +243,7 @@
 							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
-							"curb_weight": "5156lbs"
+							"curb_weight": "5156"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -252,7 +252,7 @@
 						},
 						"technicals": {
 							"msrp": "$80,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "RWD"
 						}
 					}
@@ -268,14 +268,14 @@
 					"img": "ford-Expedition.png",
 					"specs": {
 						"engine": {
-							"max_hp": "380 @ 5k",
+							"max_hp": "380 @ 5.0k",
 							"torque": "470 @ 2.2k"
 						},
 						"body": {
 							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "8",
-							"curb_weight": "5306lbs"
+							"curb_weight": "5306"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -284,7 +284,7 @@
 						},
 						"technicals": {
 							"msrp": "$57,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "FWD"
 						}
 					}
@@ -296,13 +296,13 @@
 					"specs": {
 						"engine": {
 							"max_hp": "290 @ 6.5k",
-							"torque": "265 @ 4k"
+							"torque": "265 @ 4.0k"
 						},
 						"body": {
 							"type": "Pickup",
 							"num_door": "2",
 							"num_seats": "3",
-							"curb_weight": "4021lbs"
+							"curb_weight": "4021"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -311,7 +311,7 @@
 						},
 						"technicals": {
 							"msrp": "$50,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "AWD"
 						}
 					}
@@ -329,7 +329,7 @@
 							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "6",
-							"curb_weight": "4701lbs"
+							"curb_weight": "4701"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -338,7 +338,7 @@
 						},
 						"technicals": {
 							"msrp": "$40,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "AWD"
 						}
 					}
@@ -362,7 +362,7 @@
 							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
-							"curb_weight": "2877lbs"
+							"curb_weight": "2870"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -371,7 +371,7 @@
 						},
 						"technicals": {
 							"msrp": "$20,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "FWD"
 						}
 					}
@@ -389,7 +389,7 @@
 							"type": "Sedan",
 							"num_door": "4",
 							"num_seats": "5",
-							"curb_weight": "3150lbs"
+							"curb_weight": "3150"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -398,7 +398,7 @@
 						},
 						"technicals": {
 							"msrp": "$28,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "FWD"
 						}
 					}
@@ -410,13 +410,13 @@
 					"specs": {
 						"engine": {
 							"max_hp": "190 @ 5.6k",
-							"torque": "179 @ 2k"
+							"torque": "179 @ 2.0k"
 						},
 						"body": {
 							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
-							"curb_weight": "3337lbs"
+							"curb_weight": "3337"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -425,7 +425,7 @@
 						},
 						"technicals": {
 							"msrp": "$30,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "FWD"
 						}
 					}
@@ -448,7 +448,7 @@
 							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
-							"curb_weight": "3161lbs"
+							"curb_weight": "3161"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -457,7 +457,7 @@
 						},
 						"technicals": {
 							"msrp": "$30,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "AWD"
 						}
 					}
@@ -475,7 +475,7 @@
 							"type": "SUV",
 							"num_door": "3",
 							"num_seats": "4",
-							"curb_weight": "3948lbs"
+							"curb_weight": "3948"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -484,7 +484,7 @@
 						},
 						"technicals": {
 							"msrp": "$35,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "AWD"
 						}
 					}
@@ -502,7 +502,7 @@
 							"type": "SUV",
 							"num_door": "5",
 							"num_seats": "5",
-							"curb_weight": "3710lbs"
+							"curb_weight": "3710"
 						},
 						"fuel": {
 							"fuel_type": "gas",
@@ -511,7 +511,7 @@
 						},
 						"technicals": {
 							"msrp": "$40,000",
-							"trans": "auto",
+							"trans": "Auto",
 							"drive_type": "AWD"
 						}
 					}

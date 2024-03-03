@@ -42,22 +42,3 @@ async function getNewAuthToken(publicToken, secretToken) {
 }
 getNewAuthToken(publicToken, secretToken);
 */
-
-// Delete this if you are using external API
-const filePath = "../carData.json";
-
-async function getCarData() {
-	try {
-		const response = await fetch(filePath);
-
-		if (!response.ok) {
-			throw new Error(`Fetch error!: ${response.status}`);
-		}
-
-		const carData = await response.json();
-		console.log(carData);
-	} catch (error) {
-		console.error("getCarData fetch Error:", error);
-	}
-}
-getCarData();

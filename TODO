@@ -1,43 +1,30 @@
 info for cross-origin-requests-cors
 https://carapi.app/docs/#cross-origin-requests-cors
 
-API token: 9db28246-957b-402a-8cf7-9328893f67ce
-API Secret: fbbbb0c303255acde341d5b667127f3d
 
 Main Features:
 	☐ Ability to compare 3 cars.
 	☐ Ability to search by typing not just by clicking an option from a drop down
-	☐ When the user is typing in the year, make, model, etc. the popup window will change its selectable values to be what the user has typed.
  
 	Compareable Items:
-		Fun to knows:
-			☐ 0-60 time
-			☐ 1/4 mile times
-			☐ production years
-		Engine:
-			☐ Engine type
-			☐ number cylinders and type 
-			☐ max Hoursepower
-			☐ horsepower_rpm
-			☐ torque_ft_lbs 
-			☐ at torque_rpm 
-		Body:
-			☐ Type (such as SUV or Sedan)
-			☐ number of doors 
-			☐ number of seats
-			☐ ground_clearance 
-			☐ curb_weight
-			☐ cargo_capacity
-		Fuel Info:
-			☐ fuel engine_type (gas, electric)
-			☐ fuel_type (regular unleaded)
-			☐ combined_mpg
-			☐ fuel_tank_capacity 
-			☐ estimated range (tank capacity * mpg)
 		Technicals:
 			☐ MSRP
 			☐ transmission
 			☐ drive_type
+		Engine:
+			☐ max Hoursepower @ horsepower_rpm
+			☐ torque_ft_lbs @ torque_rpm 
+		Body:
+			☐ Type (such as SUV or Sedan)
+			☐ number of doors 
+			☐ number of seats
+			☐ curb_weight
+		Fuel Info:
+			☐ fuel engine_type (gas, electric)
+			☐ combined_mpg
+			☐ fuel_tank_capacity 
+			☐ estimated range (tank capacity * mpg)
+
 			
 
 Technologies Used:
@@ -48,4 +35,3 @@ Technologies Used:
 	Babel
 	Rollup
 	ESbuild
-	Vite

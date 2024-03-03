@@ -21,7 +21,7 @@
 	outline: none;
 	box-sizing: border-box;
 
-	scrollbar-color: #3b1c3c #251f2b;
+	scrollbar-color: #432044 var(--background-color);
 	scrollbar-width: thin;
 }
 hr {
