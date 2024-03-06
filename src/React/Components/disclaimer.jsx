@@ -98,8 +98,8 @@ function DisclaimerInfo() {
 						<b>My Solution:</b>
 						<br />
 						To address this I made as many API calls as I could, then painstakingly inputting
-						that data into a local JSON file. I then eliminated external API calls using fetch
-						method. If you wish you use this site as a template you can download the files and
+						that data into a local JSON file. I then emulated external API calls by using
+						fetch. If you wish you use this site as a template you can download the files and
 						edit the URL endpoints, then go into the <code>api_keys.js</code> file to input
 						your own tokens.
 					</p>

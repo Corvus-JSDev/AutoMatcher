@@ -33,6 +33,10 @@ body {
 
 	min-width: 320px;
 	min-height: 100lvh;
+	margin-bottom: 200px;
 
 	overflow-x: hidden;
+}
+:disabled {
+	filter: brightness(80%) blur(2px);
 }

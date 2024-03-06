@@ -3,6 +3,7 @@ import "../App.css";
 import { useState, useEffect } from "react";
 import { getCarData, fetchCarData } from "./fetchCarData.jsx";
 import { v4 as uuidv4 } from "uuid";
+import closeBtn from "../../imgs/close-icon.png";
 
 function CarCard({ carData }) {
 	// calc what id each column should have
@@ -15,7 +16,7 @@ function CarCard({ carData }) {
 	const torq_rpm = carData.specs.engine.torque.slice(-4);
 	const mpg = carData.specs.fuel.combined_mpg;
 	const tankSize = carData.specs.fuel.tank_size;
-	const calcRange = Number(mpg) * Number(tankSize);
+	const calcRange = Math.floor(Number(mpg) * Number(tankSize));
 
 	// add a comma after the first 3 numbers.  2000 -> 2,000
 	const weight = carData.specs.body.curb_weight.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -38,6 +39,26 @@ function CarCard({ carData }) {
 		);
 	}
 
+	const handleClick2 = (e) => {
+		ResetCarData(e.target.id);
+	};
+	function ResetCarData(idOfButton) {
+		const updatedData = [...columnCarData];
+		let newData = { make: "", model: "" };
+
+		const carCard = $(".car-card");
+
+		for (let i = 0; i < carCard.length; i++) {
+			const element = carCard[i];
+
+			if (idOfButton == element.id) {
+				updatedData[i] = newData;
+				setColumnCarData(updatedData);
+				break;
+			}
+		}
+	}
+
 	// actual column where the car data will be displayed
 	return (
 		<div
@@ -46,7 +67,15 @@ function CarCard({ carData }) {
 		>
 			<div className="img-container">
 				{carData.img !== null ? (
-					<img src={`./src/imgs/car-pics/${carData.img}`} />
+					<>
+						<img src={`./src/imgs/car-pics/${carData.img}`} />
+						<img
+							className="close-btn-for-car-car"
+							src={closeBtn}
+							id={idIndex}
+							onClick={handleClick2}
+						/>
+					</>
 				) : (
 					<SelectCarBtn />
 				)}
@@ -107,7 +136,7 @@ function CarCard({ carData }) {
 						<p>{carData.specs.fuel.tank_size}</p>
 					</div>
 					<div className="info-box range">
-						{isNaN(calcRange) ? <p>--</p> : <p>{calcRange}</p>}
+						{isNaN(calcRange) || calcRange == 0 ? <p>--</p> : <p>{calcRange}</p>}
 
 						<p>(miles)</p>
 					</div>
@@ -310,28 +339,21 @@ function CarSelectionPopUp() {
 
 		const carMakeValue = $("#select-car-make").val();
 		const carModelValue = $("#select-car-model").val();
-		console.log(carMakeValue, carModelValue);
 
 		const updatedData = [...columnCarData];
 		let newData = { make: carMakeValue, model: carModelValue };
 
-		//
 		const carCard = $(".car-card");
 		for (let i = 0; i < carCard.length; i++) {
 			const element = carCard[i];
 
 			if (fullClassName == element.id) {
-				console.log(`column ${i} changed`);
 				updatedData[i] = newData;
 				setColumnCarData(updatedData);
 				break;
 			}
 		}
-
-		setTimeout(() => {
-			console.log("columnCarData is:", columnCarData);
-			console.log("--------------------------------------");
-		}, 500);
+		DisableChangeCarPopUp();
 	}
 
 	return (

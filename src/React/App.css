@@ -26,7 +26,7 @@ code {
 	justify-content: left;
 	align-items: center;
 	gap: 20px;
-	padding: 0px 50px;
+	padding: 0px 100px;
 }
 #nav-bar img {
 	width: 75px;
@@ -102,6 +102,7 @@ code {
 	background-color: var(--secondary-color);
 	max-height: 90lvh;
 	max-width: 700px;
+	border-radius: 20px;
 	padding: 30px;
 	position: absolute;
 	left: 50%;
@@ -304,6 +305,7 @@ code {
 
 	width: 350px;
 	height: 380px;
+	border-radius: 15px;
 	padding: 30px 0px 30px 0px;
 	background-color: var(--secondary-color);
 }
@@ -340,4 +342,11 @@ code {
 }
 label {
 	margin-bottom: 5px;
+}
+.close-btn-for-car-car {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 20px;
+	cursor: pointer;
 }
