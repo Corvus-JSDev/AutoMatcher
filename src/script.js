@@ -1,5 +1,3 @@
-import $ from "jquery";
-
 // If the user clicks to another tab, change the title of the page
 document.addEventListener("visibilitychange", () => {
 	if (document.hidden) {

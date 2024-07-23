@@ -1,4 +1,4 @@
-const filePath = "../../carData.json";
+const filePath = "/carData.json";
 // fetch data for a specific car
 async function getCarData(make, model) {
 	try {
@@ -29,6 +29,7 @@ async function getCarData(make, model) {
 		console.error("getCarData fetch Error:", error);
 	}
 }
+
 // fetch the raw data from carData.json
 async function fetchCarData() {
 	try {

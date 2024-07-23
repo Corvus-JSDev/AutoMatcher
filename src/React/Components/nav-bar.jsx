@@ -7,7 +7,7 @@ function NavBar() {
 				src={logo}
 				alt="logo"
 			/>
-			<h1>Car Comparer</h1>
+			<h1>AutoMatcher</h1>
 		</nav>
 	);
 }
