@@ -19,7 +19,10 @@ function CarCard({ carData }) {
 	const calcRange = Math.floor(Number(mpg) * Number(tankSize));
 
 	// add a comma after the first 3 numbers.  2000 -> 2,000
-	const weight = carData.specs.body.curb_weight.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	const weight = carData.specs.body.curb_weight.replace(
+		/\B(?=(\d{3})+(?!\d))/g,
+		",",
+	);
 
 	// Button to select a new car
 	function SelectCarBtn() {
@@ -68,7 +71,7 @@ function CarCard({ carData }) {
 			<div className="img-container">
 				{carData.img !== null ? (
 					<>
-						<img src={`./src/imgs/car-pics/${carData.img}`} />
+						<img src={`/car-pics/${carData.img}`} />
 						<img
 							className="close-btn-for-car-car"
 							src={closeBtn}
@@ -136,7 +139,11 @@ function CarCard({ carData }) {
 						<p>{carData.specs.fuel.tank_size}</p>
 					</div>
 					<div className="info-box range">
-						{isNaN(calcRange) || calcRange == 0 ? <p>--</p> : <p>{calcRange}</p>}
+						{isNaN(calcRange) || calcRange == 0 ? (
+							<p>--</p>
+						) : (
+							<p>{calcRange}</p>
+						)}
 
 						<p>(miles)</p>
 					</div>
@@ -262,7 +269,9 @@ function DisableChangeCarPopUp() {
 }
 function EnableChangeCarPopUp(idOfButton) {
 	// Read the ID of the column that the button is in
-	const ancestorContainerId = $(`#${idOfButton}`).closest(".car-card").attr("id");
+	const ancestorContainerId = $(`#${idOfButton}`)
+		.closest(".car-card")
+		.attr("id");
 
 	// set the class of the pop up section to the value of the column that will be changed, this is to keep track of what btn opened the pop-up
 	$("#car-selection-pop-up").attr("class", ancestorContainerId);
@@ -303,7 +312,9 @@ function CarSelectionPopUp() {
 			const carIteration = data[i];
 
 			if (carIteration.name === selectedCarBrand) {
-				const modelsForOptions = carIteration.models.map((item) => item.name);
+				const modelsForOptions = carIteration.models.map(
+					(item) => item.name,
+				);
 				setListOfCarsModels(modelsForOptions);
 
 				break;
