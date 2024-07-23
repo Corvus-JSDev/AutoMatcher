@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 src/API-Token-Data.js
 private/*
+
+
+*TODO*
