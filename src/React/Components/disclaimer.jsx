@@ -106,7 +106,7 @@ function DisclaimerInfo() {
 						your own tokens.
 					</p>
 					<br /> <br />
-					<a href="#">Download This Website Here</a>
+					<a href="https://github.com/Corvus-JSDev/AutoMatcher">Download This Website Here</a>
 				</div>
 			</div>
 		</>
