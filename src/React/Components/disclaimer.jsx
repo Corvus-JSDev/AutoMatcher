@@ -45,10 +45,12 @@ function DisclaimerInfo() {
 			<div id="disclaimer">
 				<div>
 					<div>
+												{/*
 						<button
 							id="disclaimer-close-btn"
 							onClick={CloseDisclaimer}
 						></button>
+						*/}
 						<p>
 							<b>Disclaimer:</b> This app is a demo, some data may be not up to date.
 						</p>
